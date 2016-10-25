@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>moroTest</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="../css/app/tool.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <h1 id="title">moroTest alpha版</h1>
+    <div id="headermenu">
+      <section id="main_header">
+        <input type="submit" value="やる" id="run">
+        <input type="submit" value="みる" id="find">
+      </section>
+    </div>
+
+    <div id="main">
+    </div>
+    <div id="logview"></div>
+
+  </div>
+
+  <!-- template -->
+  <script type="text/template" id="jobresult_entry">
+    <a class="jobid"><%- jobid %></a>
+    <a class="jobunit"><%- jobunit %></a>
+    <a class="jobname"><%- jobname %></a>
+    <a class="startdate"><%- startdate %></a><br><br>
+    <a class="stopdate"><%- stopdate %></a><br><br>
+  </script>
+
+  <!-- js -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+
+  <script src="../js/external/underscore.js"></script>
+  <script src="../js/external/backbone.js"></script>
+
+  
+  <!-- for backbonejs -->
+  <script src="../js/app/model/jobresult_model.js"></script>
+  <script src="../js/app/collection/jobresult_collection.js"></script>
+  <script src="../js/app/view/jobresult_view.js"></script>
+
+  <script src="../js/app/tool.js"></script>
+</body>
+</html>

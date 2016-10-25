@@ -1,0 +1,3 @@
+GET,,http://XXX/xxxx,,Accept:application/json,,,name
+sleep 3
+GET,,http://XXX/xxxx,,Accept:application/json,,,name

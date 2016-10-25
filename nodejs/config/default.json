@@ -1,0 +1,11 @@
+{
+    "config":{
+        "listen_port": 80,
+        "jenkins_user":"jijii",
+        "jenkins_password":"O0O0oo|-_-;|!",
+        "jenkins_dir":"/var/lib/jenkins",
+        "mongo_host":"127.0.0.1",
+        "mongo_user":"jijii",
+        "mongo_password":"O0O0oo|-_-;|!"
+    }
+}
